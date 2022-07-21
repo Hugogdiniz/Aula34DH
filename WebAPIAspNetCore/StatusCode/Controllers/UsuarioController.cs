@@ -36,7 +36,7 @@ namespace StatusCode.Controllers
         public ActionResult<Usuario> PublicarUm(Usuario Usuario)
         {
 
-            foreach (Usuario usuario in DbSistema.Usuario)
+            foreach (Usuario usuario in DbSistema.Usuario.ToList())
             {
                 if (usuario.Cpf != null)
                 {
@@ -44,10 +44,9 @@ namespace StatusCode.Controllers
                 }
             }
 
-                return Ok(DbSistema.Usuario.Add(Usuario));
-           
-
+            DbSistema.Usuario.Add(Usuario);
             DbSistema.SaveChanges();
+            return Ok(Usuario);
         }
 
         [HttpDelete("{Id}")]
