@@ -14,7 +14,7 @@ namespace StatusCode.Controllers
         [HttpGet]
         public ActionResult<List<Usuario>> RequererTodos()
         {
-            return Ok();
+            return Ok(DbSistema.Usuario.ToList());
         }
 
         [HttpGet("{Id}")]
@@ -28,7 +28,7 @@ namespace StatusCode.Controllers
             }
             else
             {
-                return Ok();
+                return Ok(DbSistema.Usuario.Where(Usuario => Usuario.Id == Id));
             }
         }
 
@@ -37,6 +37,7 @@ namespace StatusCode.Controllers
         {
             Usuario novoUsuario = new Usuario
             {
+                Id = Usuario.Id,
                 Cpf = Usuario.Cpf,
                 Nome = Usuario.Nome,
                 Sobrenome = Usuario.Sobrenome
@@ -49,7 +50,7 @@ namespace StatusCode.Controllers
                     return Conflict();
                 }
             }
-            DbSistema.Usuario.Add(novoUsuario);
+            DbSistema.Usuario.Add(Usuario);
             DbSistema.SaveChanges();
             return Ok(Usuario);
         }
@@ -72,6 +73,35 @@ namespace StatusCode.Controllers
         }
 
         [HttpPut("{id}")]
+        public ActionResult<Usuario> SubstituirUmPelaId(int Id, Usuario Usuario)
+        {
+            var Resultado = DbSistema.Usuario.Find(Id);
+            Usuario atualizarUsuario = new Usuario
+            {
+                Cpf = Usuario.Cpf,
+                Nome = Usuario.Nome,
+                Sobrenome = Usuario.Sobrenome
+            };
+
+            if (Resultado == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                foreach (Usuario usuario in DbSistema.Usuario.ToList())
+                {
+                    if (usuario.Cpf == atualizarUsuario.Cpf)
+                    {
+                        return Conflict();
+                    }
+                }
+            }
+            DbSistema.Usuario.Update(atualizarUsuario);
+            DbSistema.SaveChanges();
+            return Ok();
+        }
+        /*
         public ActionResult<Usuario> SubstituirUmPelaId(int Id, Usuario Usuario)
         {
             var Resultado = DbSistema.Usuario.Find(Id);
@@ -103,7 +133,7 @@ namespace StatusCode.Controllers
             DbSistema.SaveChanges();
 
 
-        }
+        } */
     }
 }
 
