@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hugod\\Downloads\\WebAPIAspNetCore\\WebAPIAspNetCore\\StatusCode\\StatusCode.csproj": {}
+    "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula34 21_07\\Aula34DH\\WebAPIAspNetCore\\StatusCode\\StatusCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hugod\\Downloads\\WebAPIAspNetCore\\WebAPIAspNetCore\\StatusCode\\StatusCode.csproj": {
+    "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula34 21_07\\Aula34DH\\WebAPIAspNetCore\\StatusCode\\StatusCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugod\\Downloads\\WebAPIAspNetCore\\WebAPIAspNetCore\\StatusCode\\StatusCode.csproj",
+        "projectUniqueName": "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula34 21_07\\Aula34DH\\WebAPIAspNetCore\\StatusCode\\StatusCode.csproj",
         "projectName": "StatusCode",
-        "projectPath": "C:\\Users\\hugod\\Downloads\\WebAPIAspNetCore\\WebAPIAspNetCore\\StatusCode\\StatusCode.csproj",
-        "packagesPath": "C:\\Users\\hugod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugod\\Downloads\\WebAPIAspNetCore\\WebAPIAspNetCore\\StatusCode\\obj\\",
+        "projectPath": "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula34 21_07\\Aula34DH\\WebAPIAspNetCore\\StatusCode\\StatusCode.csproj",
+        "packagesPath": "C:\\Users\\laiss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula34 21_07\\Aula34DH\\WebAPIAspNetCore\\StatusCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hugod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laiss\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -35,16 +35,21 @@ namespace StatusCode.Controllers
         [HttpPost]
         public ActionResult<Usuario> PublicarUm(Usuario Usuario)
         {
+            Usuario novoUsuario = new Usuario
+            {
+                Cpf = Usuario.Cpf,
+                Nome = Usuario.Nome,
+                Sobrenome = Usuario.Sobrenome
+            };
 
             foreach (Usuario usuario in DbSistema.Usuario.ToList())
             {
-                if (usuario.Cpf != null)
+                if (usuario.Cpf == novoUsuario.Cpf)
                 {
                     return Conflict();
                 }
             }
-
-            DbSistema.Usuario.Add(Usuario);
+            DbSistema.Usuario.Add(novoUsuario);
             DbSistema.SaveChanges();
             return Ok(Usuario);
         }
@@ -70,12 +75,20 @@ namespace StatusCode.Controllers
         public ActionResult<Usuario> SubstituirUmPelaId(int Id, Usuario Usuario)
         {
             var Resultado = DbSistema.Usuario.Find(Id);
-            var ResultadoCPF = DbSistema.Usuario.Find(Usuario.Cpf);
+
+            Usuario novoUsuario = new Usuario
+            {
+                Cpf = Usuario.Cpf,
+                Nome = Usuario.Nome,
+                Sobrenome = Usuario.Sobrenome
+            };
 
             if (Id != Usuario.Id)
             {
                 return BadRequest();
-            } else if(Resultado == null) {
+            }
+            else if (Resultado == null)
+            {
                 return NotFound();
             }
             else if (ResultadoCPF != null)

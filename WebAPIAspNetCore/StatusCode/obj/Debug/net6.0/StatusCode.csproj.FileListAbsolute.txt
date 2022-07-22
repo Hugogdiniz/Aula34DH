@@ -60,3 +60,34 @@ C:\Users\hugod\Downloads\WebAPIAspNetCore\WebAPIAspNetCore\StatusCode\obj\Debug\
 C:\Users\hugod\Downloads\WebAPIAspNetCore\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.pdb
 C:\Users\hugod\Downloads\WebAPIAspNetCore\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.genruntimeconfig.cache
 C:\Users\hugod\Downloads\WebAPIAspNetCore\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\ref\StatusCode.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\appsettings.json
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\StatusCode.exe
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\StatusCode.deps.json
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\StatusCode.runtimeconfig.json
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\StatusCode.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\StatusCode.pdb
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.csproj.AssemblyReference.cache
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.AssemblyInfoInputs.cache
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.AssemblyInfo.cs
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.csproj.CoreCompileInputs.cache
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\scopedcss\bundle\StatusCode.styles.css
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.csproj.CopyComplete
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\refint\StatusCode.dll
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.pdb
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\StatusCode.genruntimeconfig.cache
+C:\Users\laiss\Documents\Aulas\5. .Net framework\Aula34 21_07\Aula34DH\WebAPIAspNetCore\StatusCode\obj\Debug\net6.0\ref\StatusCode.dll
